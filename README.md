@@ -1,73 +1,37 @@
-# Welcome to your Lovable project
+# CyberSecurity — Bootcamp On Coconut (BoC-Cyber)
 
-## Project info
+Landing page untuk bootcamp online intensif 3 hari bertema **Offensive Security**. Peserta akan mempelajari teknik reconnaissance, web exploitation, hingga post exploitation langsung dari praktisi keamanan siber.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Fitur
 
-## How can I edit this code?
+- 🎯 Hero section dengan statistik bootcamp
+- 📚 Kurikulum 3 hari (Reconnaissance, Web Exploitation, Post Exploitation)
+- 💰 Paket harga (Early Bird, Regular, VIP)
+- 📝 Halaman registrasi peserta
+- 📱 Responsive design (mobile & desktop)
 
-There are several ways of editing your application.
+## Tech Stack
 
-**Use Lovable**
+- **React** + **TypeScript**
+- **Vite** — build tool
+- **Tailwind CSS** — styling
+- **shadcn/ui** — komponen UI
+- **Framer Motion** — animasi
+- **React Router** — routing
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Menjalankan Secara Lokal
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
 npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Deploy
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Buka [Lovable](https://lovable.dev) → Share → Publish.
 
-**Use GitHub Codespaces**
+## Custom Domain
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Project Settings → Domains → Connect Domain. [Dokumentasi](https://docs.lovable.dev/features/custom-domain#custom-domain)
