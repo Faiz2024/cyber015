@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8 }}
           className="max-w-4xl">
 
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 font-mono text-sm text-primary">
+          <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2  text-sm text-primary">
             <Terminal className="h-4 w-4" />
             <span>Mulai Maret 2026</span>
           </div> 
@@ -72,7 +72,7 @@ const HeroSection = () => {
           { value: "Gratis", label: "Akses Rekaman" }].
           map((stat) =>
           <div key={stat.label} className="text-center">
-              <div className="font-mono text-3xl font-bold text-primary glow-text-primary md:text-4xl">
+              <div className=" text-3xl font-bold text-primary glow-text-primary md:text-4xl">
                 {stat.value}
               </div>
               <div className="mt-1 text-sm text-muted-foreground">{stat.label}</div>

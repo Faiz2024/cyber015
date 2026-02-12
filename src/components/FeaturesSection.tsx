@@ -46,7 +46,7 @@ const FeaturesSection = () => {
           transition={{ duration: 0.6 }}
           className="mb-16 text-center"
         >
-          <span className="mb-4 inline-block font-mono text-sm uppercase tracking-widest text-accent">
+          <span className="mb-4 inline-block  text-sm uppercase tracking-widest text-accent">
             Mengapa BoC-Cyber?
           </span>
           <h2 className="text-3xl font-bold md:text-5xl">
@@ -67,7 +67,7 @@ const FeaturesSection = () => {
               <div className="mb-4 inline-flex rounded-md bg-primary/10 p-3 text-primary">
                 <feature.icon className="h-6 w-6" />
               </div>
-              <h3 className="mb-2 font-mono text-lg font-bold">{feature.title}</h3>
+              <h3 className="mb-2  text-lg font-bold">{feature.title}</h3>
               <p className="text-sm leading-relaxed text-muted-foreground">{feature.description}</p>
             </motion.div>
           ))}

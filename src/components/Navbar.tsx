@@ -17,7 +17,7 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-border bg-background/80 backdrop-blur-xl">
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
-        <Link to="/" className="flex items-center gap-2 font-mono text-lg font-bold text-primary">
+        <Link to="/" className="flex items-center gap-2  text-lg font-bold text-primary">
           <Shield className="h-6 w-6" />
           <span className="glow-text-primary">BoC-Cyber</span>
         </Link>
@@ -28,7 +28,7 @@ const Navbar = () => {
             <a
               key={link.href}
               href={link.href}
-              className="font-mono text-sm text-muted-foreground transition-colors hover:text-primary"
+              className=" text-sm text-muted-foreground transition-colors hover:text-primary"
             >
               {link.label}
             </a>
@@ -58,7 +58,7 @@ const Navbar = () => {
               <a
                 key={link.href}
                 href={link.href}
-                className="font-mono text-sm text-muted-foreground transition-colors hover:text-primary"
+                className=" text-sm text-muted-foreground transition-colors hover:text-primary"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}
