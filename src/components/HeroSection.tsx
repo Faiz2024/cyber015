@@ -69,7 +69,7 @@ const HeroSection = () => {
             { value: "3 Hari", label: "Bootcamp Online" },
             { value: "100%", label: "Full Praktik" },
             { value: "3 Topik", label: "Offensive Security" },
-            { value: "∞", label: "Akses Rekaman" },
+            { value: "Gratis", label: "Akses Rekaman" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
               <div className="font-mono text-3xl font-bold text-primary glow-text-primary md:text-4xl">
