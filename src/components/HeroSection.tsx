@@ -10,8 +10,8 @@ const HeroSection = () => {
       {/* Background image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-30"
-        style={{ backgroundImage: `url(${heroBg})` }}
-      />
+        style={{ backgroundImage: `url(${heroBg})` }} />
+
 
       {/* Grid overlay */}
       <div className="absolute inset-0 cyber-grid opacity-40" />
@@ -25,15 +25,15 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="max-w-4xl"
-        >
+          className="max-w-4xl">
+
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-primary/30 bg-primary/10 px-4 py-2 font-mono text-sm text-primary">
             <Terminal className="h-4 w-4" />
             <span>Mulai Maret 2026</span>
           </div> 
 
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl lg:text-7xl">
-            <span className="text-primary glow-text-primary">MAN BEHIND</span>
+            <span className="glow-text-primary text-foreground">MAN BEHIND</span>
             <br />
             <span className="text-primary glow-text-primary">THE HAT</span>
           </h1>
@@ -63,25 +63,25 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4"
-        >
+          className="mt-20 grid grid-cols-2 gap-8 md:grid-cols-4">
+
           {[
-            { value: "3 Hari", label: "Bootcamp Online" },
-            { value: "100%", label: "Full Praktik" },
-            { value: "3 Topik", label: "Offensive Security" },
-            { value: "Gratis", label: "Akses Rekaman" },
-          ].map((stat) => (
-            <div key={stat.label} className="text-center">
+          { value: "3 Hari", label: "Bootcamp Online" },
+          { value: "100%", label: "Full Praktik" },
+          { value: "3 Topik", label: "Offensive Security" },
+          { value: "Gratis", label: "Akses Rekaman" }].
+          map((stat) =>
+          <div key={stat.label} className="text-center">
               <div className="font-mono text-3xl font-bold text-primary glow-text-primary md:text-4xl">
                 {stat.value}
               </div>
               <div className="mt-1 text-sm text-muted-foreground">{stat.label}</div>
             </div>
-          ))}
+          )}
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default HeroSection;
